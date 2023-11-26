@@ -43,7 +43,8 @@ int main(void)
 
 
   // Отправляем строку "Hello" в терминал
-  char *str = "Hello\n"; // Объявляем строку
+  char *str = "Hello World\n"; // Объявляем строку
+  char *str1 = str;
 
 
 
@@ -57,7 +58,7 @@ int main(void)
 	  //asm("NOP");
        // Передаем очередной символ
     }
-  	  str = "Hello\n";
+  	  str = str1;
   	  for(long i=0; i<1000000;i++){}
   	}
 
